@@ -1,7 +1,7 @@
 public class Student {
     public String lastname;
     public int realName;
-    private int age;
+    private int realAge;
 
     public String getName() {
         return lastname;
@@ -20,8 +20,8 @@ public class Student {
     }
 
     public void dosomething(){
-        age = 18;
-        System.out.println(realName+"年龄为："+ age);
+        realAge = 18;
+        System.out.println(realName+"年龄为："+ realAge);
         //System.out.println(realName);
     }
 }
