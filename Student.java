@@ -1,20 +1,27 @@
 public class Student {
-    public String name;
-    public int firstAge;
+    public String lastname;
+    public int realName;
+    private int age;
 
     public String getName() {
-        return name;
+        return lastname;
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.lastname = name;
     }
 
-    public int getFirstAge() {
-        return firstAge;
+    public int getRealName() {
+        return realName;
     }
 
-    public void setFirstAge(int firstAge) {
-        this.firstAge = firstAge;
+    public void setRealName(int realName) {
+        this.realName = realName;
+    }
+
+    public void dosomething(){
+        age = 18;
+        System.out.println(realName+"年龄为："+ age);
+        //System.out.println(realName);
     }
 }
